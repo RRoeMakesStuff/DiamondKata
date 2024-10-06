@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{67597283-D151-428E-BC13-38E0FD3E3AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata.Program", "DiamondKata.Program\DiamondKata.Program.csproj", "{5ED3771E-55CB-4594-9FE8-9E3003D4F167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata.Core", "DiamondKata.Core\DiamondKata.Core.csproj", "{0065FA0A-0D77-41B3-B776-E85EAC06C2DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EA7F4854-22C8-4824-960C-98DC50AD9E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata.Program.Tests", "DiamondKata.Program.Tests\DiamondKata.Program.Tests.csproj", "{A765CE30-A102-4D73-8DA2-F098772F7271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata.Core.Tests", "DiamondKata.Core.Tests\DiamondKata.Core.Tests.csproj", "{FDA827A1-3B53-4239-8F2C-6BE50CD0527A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ED3771E-55CB-4594-9FE8-9E3003D4F167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED3771E-55CB-4594-9FE8-9E3003D4F167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED3771E-55CB-4594-9FE8-9E3003D4F167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED3771E-55CB-4594-9FE8-9E3003D4F167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0065FA0A-0D77-41B3-B776-E85EAC06C2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0065FA0A-0D77-41B3-B776-E85EAC06C2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0065FA0A-0D77-41B3-B776-E85EAC06C2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0065FA0A-0D77-41B3-B776-E85EAC06C2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A765CE30-A102-4D73-8DA2-F098772F7271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A765CE30-A102-4D73-8DA2-F098772F7271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A765CE30-A102-4D73-8DA2-F098772F7271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A765CE30-A102-4D73-8DA2-F098772F7271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA827A1-3B53-4239-8F2C-6BE50CD0527A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA827A1-3B53-4239-8F2C-6BE50CD0527A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA827A1-3B53-4239-8F2C-6BE50CD0527A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA827A1-3B53-4239-8F2C-6BE50CD0527A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5ED3771E-55CB-4594-9FE8-9E3003D4F167} = {67597283-D151-428E-BC13-38E0FD3E3AE2}
+		{0065FA0A-0D77-41B3-B776-E85EAC06C2DC} = {67597283-D151-428E-BC13-38E0FD3E3AE2}
+		{A765CE30-A102-4D73-8DA2-F098772F7271} = {EA7F4854-22C8-4824-960C-98DC50AD9E07}
+		{FDA827A1-3B53-4239-8F2C-6BE50CD0527A} = {EA7F4854-22C8-4824-960C-98DC50AD9E07}
+	EndGlobalSection
+EndGlobal
